@@ -12,14 +12,14 @@
     <!-- Header -->
     <header class="bg-gray-100 p-6 text-center rounded-lg mb-6">
       <img src="https://raw.githubusercontent.com/marimo-team/marimo/main/docs/_static/marimo-logotype-thick.svg" alt="marimo Logo" class="w-20 h-auto mx-auto mb-3">
-      <h1 class="text-2xl font-bold mb-2">5CLS | as 2025-2026</h1>
+      <h1 class="text-3xl font-bold mb-2">5CLS | as 2025-2026</h1>
       <p class="text-sm">Notebook interattivi in Python</p>
     </header>
 
     <main>
       {% if notebooks %}
       <h2 class="text-xl font-bold text-center my-4">Notebooks</h2>
-      <p class="text-center mb-4">Notebook interattivi in modalità di modifica - puoi modificare e sperimentare con il codice</p>
+      <p class="text-center mb-4 text-sm">Notebook interattivi in modalità di modifica - puoi modificare e sperimentare con il codice</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         {% for notebook in notebooks %}
         <!-- {{ notebook.display_name }} Notebook -->
@@ -35,8 +35,8 @@
 
       {% if apps %}
       <h2 class="text-xl font-bold text-center my-4">Apps</h2>
-      <p class="text-center mb-4">Applicazioni interattive in modalità di esecuzione - il codice è nascosto per avere un'interfaccia utente più pulita</p>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <p class="text-center mb-4 text-sm">Applicazioni interattive in modalità di esecuzione - il codice è nascosto per avere un'interfaccia utente più pulita</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {% for app in apps %}
         <!-- {{ app.display_name }} App -->
         <div class="bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
