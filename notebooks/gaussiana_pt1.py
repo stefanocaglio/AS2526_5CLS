@@ -10,7 +10,7 @@ def _(mo):
         r"""
     # **La funzione gaussiana (parte 1)**
 
-    In questo laboratorio vedremo come creare dei grafici con lo scopo di costruire la funzione gaussiana e capire il suo comportamento.
+    In questo laboratorio vedremo **come creare dei grafici** con lo **scopo di costruire la funzione gaussiana** e capire il suo comportamento.
     """
     )
     return
@@ -102,7 +102,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.md(
         r"""
@@ -127,7 +127,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(math, plt):
     x = []
 
@@ -247,7 +247,7 @@ def _(mo):
     return
 
 
-@app.cell
+@app.cell(hide_code=True)
 def _(mo):
     mo.sidebar(
         [
