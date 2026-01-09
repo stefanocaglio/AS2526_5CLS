@@ -27,7 +27,7 @@
       <h2 class="text-xl font-bold text-center my-6">Notebooks</h2>
       <p class="text-center mb-4 text-sm">Notebook interattivi in modalità di modifica - puoi modificare e sperimentare con il codice</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        {% for notebook in notebooks %}
+        {% for notebook in notebooks | sort(attribute="display_name") %}
         <!-- {{ notebook.display_name }} Notebook -->
         <div class="bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
           <div class="bg-gray-200 p-3 font-semibold text-center">{{ notebook.display_name }}</div>
