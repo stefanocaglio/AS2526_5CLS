@@ -254,13 +254,13 @@ def _(mo):
             mo.md("**La gaussiana (pt. 1)**"),
             mo.nav_menu(
                 {
-                    "https://stefanocaglio.com": f"{mo.icon('lucide:home')} Home",
-                    "https://stefanocaglio.quarto.pub/": f"{mo.icon('lucide:user')} About",
+                    "https://stefanocaglio.github.io/AS2526_5CLS/": f"{mo.icon('lucide:home')} Home",
+                    "https://github.com/stefanocaglio/AS2526_5CLS/blob/4cfb769b3f7997823789f78918968c9c336652a3/README.md": f"{mo.icon('lucide:user')} About",
                     # "#/contact": f"{mo.icon('lucide:phone')} Contact",
-                    "Links": {
+                    # "Links": {
                     #    "https://twitter.com/marimo_io": "Twitter",
-                        "https://github.com/marimo-team/marimo": "GitHub",
-                    },
+                        "https://github.com/stefanocaglio/AS2526_5CLS/blob/4cfb769b3f7997823789f78918968c9c336652a3/notebooks/gaussiana_pt1.py": f"{mo.icon('lucide:github')} GitHub",
+                    # },
                 },
                 orientation="vertical",
             ),
