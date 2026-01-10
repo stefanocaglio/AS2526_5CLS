@@ -43,7 +43,7 @@
       <h2 class="text-xl font-bold text-center my-6">Apps</h2>
       <p class="text-center mb-4 text-sm">Applicazioni interattive in modalità di esecuzione - il codice è nascosto per avere un'interfaccia utente più pulita</p>
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-        {% for app in apps %}
+        {% for app in apps  | sort(attribute="display_name") %}
         <!-- {{ app.display_name }} App -->
         <div class="bg-gray-50 border border-gray-200 rounded-lg overflow-hidden">
           <div class="bg-gray-200 p-3 font-semibold text-center">{{ app.display_name }}</div>
@@ -58,6 +58,12 @@
 
     <footer class="mt-10 pt-6 border-t border-gray-200 text-center text-sm text-gray-600">
       <p class="mb-2">Realizzato con <a href="https://marimo.io" target="_blank" class="text-zinc-700 hover:text-zinc-400">marimo</a> e ♡ da <a href="https://stefanocaglio.com" target="_blank" class="text-zinc-700 hover:text-zinc-400">Stefano Caglio</a> per <a href="https://www.mapelli-monza.edu.it/" target="_blank" class="text-zinc-700 hover:text-zinc-400">ITCG A. Mapelli</a></p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+        <div class="py-2"> <iconify-icon icon="lucide:github"></iconify-icon> </div>
+        <div class="py-2">Instagram</div>
+        <div class="py-2">Test</div>
+        <div class="py-2">Test</div>
+      </div>
 <!--
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
         <div class="py-2">LinkedIn</div>
