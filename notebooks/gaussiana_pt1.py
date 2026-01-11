@@ -264,6 +264,15 @@ def _(mo):
                 },
                 orientation="vertical",
             ),
+            mo.md(f"[{ mo.image(
+                src="https://raw.githubusercontent.com/stefanocaglio/AS2526_5CLS/da78057f43dec3ce5e5d6101e3efdb41063ae4cc/assets/Created-By-a-Human-Not-By-AI-Badge-white.svg",
+                            alt="Marimo logo",
+                            width=150,
+                            style= {
+                                "margin": "1.5em auto 0px auto",
+                            },
+                        )
+            }](https://notbyai.fyi/it)")
         ]
     )
     return
@@ -271,3 +280,4 @@ def _(mo):
 
 if __name__ == "__main__":
     app.run()
+
