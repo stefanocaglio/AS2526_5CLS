@@ -1,4 +1,6 @@
-# Classe 5CLS, anno scolastico 2025-2026
+![Static Badge](https://img.shields.io/badge/status-active-brightgreen?style=flat) | ![Static Badge](https://img.shields.io/badge/python-v.3-brightgreen?style=flat&logo=python&logoColor=f5f5f5)
+
+# 🎒 Classe 5CLS, anno scolastico 2025-2026
 
 Questo repo è un fork di [marimo WebAssembly + GitHub Pages Template](https://github.com/marimo-team/marimo-gh-pages-template), personalizzato per ospitare su GitHub i notebook e le app create con [marimo](https://marimo.io).
 Fai riferimento a questo repo se vuoi maggiori informazioni.
