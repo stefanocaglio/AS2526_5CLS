@@ -15,7 +15,8 @@ Fai riferimento a questo repo se vuoi maggiori informazioni.
 4. GitHub Actions eseguirà automaticamente il build e il deploy su GitHub Pages
 
 
-## Includere dati o altri assets
+
+## 📥 Includere dati o altri assets
 
 Per includere dati nei tuoi notebooks, aggiungili alla cartella `public/`.
 
@@ -37,5 +38,10 @@ df = pl.read_csv(mo.notebook_location() / "public" / "penguins.csv")
 ## 🎨 Template
 
 La versione originale del repo include diversi template. L'unico che è stato personalizzato è  `tailwind.html.j2`.
+
+In questo template sono utilizzati:
+- **il framework CSS [Tailwind](https://tailwindcss.com/)**
+- **il motore di templating [Jinja2](https://jinja.palletsprojects.com/en/stable/)**: è stata personalizzata la capacità di elencare notebooks e apps in ordine alfabetico tramite `sort`.
+- 
 
 Puoi creare altri template. Per maggiori informazioni consulta [templates/README.md](templates/README.md).
