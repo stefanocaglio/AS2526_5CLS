@@ -1,9 +1,18 @@
 ![Static Badge](https://img.shields.io/badge/status-active-brightgreen?style=flat)  ![Static Badge](https://img.shields.io/badge/python-v.3-brightgreen?style=flat&logo=python&logoColor=f5f5f5)
 
-# 🎒 Classe 5CLS, anno scolastico 2025-2026
+# 🎒 Classe 5CLS | anno scolastico 2025-2026
 
 Questo repo è un fork di [marimo WebAssembly + GitHub Pages Template](https://github.com/marimo-team/marimo-gh-pages-template), personalizzato per ospitare su GitHub i notebook e le app create con [marimo](https://marimo.io).
 Fai riferimento a questo repo se vuoi maggiori informazioni.
+
+## 📒 Notebooks e apps contenuti
+
+Notebooks:
+1. **Gaussiana Pt1**
+   1. ripasso della creazione di un grafico a partire dalle liste di ascisse e ordinate (senza usare altre librerie come `numpy` per esempio)
+   2. creazione del grafico interattivo della funzione $y= A e^{-B{(x-C)}^2} $ per ragionare su come i parametri $A$, $B$ e $C$ influenzano il grafico 
+
+
 
 ## 🚀 Utilizzo
 
