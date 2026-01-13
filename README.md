@@ -12,10 +12,12 @@ Fai riferimento a questo repo se vuoi maggiori informazioni.
 ## 📒 Notebooks e apps contenuti
 
 Notebooks:
-1. **Gaussiana Pt1** [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/stefanocaglio/AS2526_5CLS/blob/270d558277d4378f06f27fee84911d192163bffb/notebooks/gaussiana_pt1.py)
+1. **Gaussiana Pt1** &nbsp; [![Open in molab](https://marimo.io/molab-shield.svg)](https://molab.marimo.io/github/stefanocaglio/AS2526_5CLS/blob/270d558277d4378f06f27fee84911d192163bffb/notebooks/gaussiana_pt1.py)
+Obiettivi 
    1. ripasso della creazione di un grafico a partire dalle liste di ascisse e ordinate (senza usare altre librerie come `numpy` per esempio)
    2. creazione del grafico interattivo della funzione $y= A e^{-B{(x-C)}^2}$ per ragionare su come i parametri $A$, $B$ e $C$ influenzano il grafico 
 
+N.B.: link per la creazione del [badge marimo](https://molab.marimo.io/github)
 &nbsp;
 
 ## 🚀 Utilizzo
