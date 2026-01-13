@@ -1,4 +1,4 @@
-![Static Badge](https://img.shields.io/badge/status-active-brightgreen?style=flat)  ![Static Badge](https://img.shields.io/badge/python-v.3-brightgreen?style=flat&logo=python&logoColor=f5f5f5)
+![Static Badge](https://img.shields.io/badge/status-active-green?style=flat)  ![Static Badge](https://img.shields.io/badge/python-v.3-brightgreen?style=flat&logo=python&logoColor=f5f5f5)
 
 &nbsp;
 
